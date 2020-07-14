@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0595af7e-01e4-4dae-8e35-c65d7dcd8cac" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/api/system/student.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/api/test/customer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/api/test/goods.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/api/test/product.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/api/test/student.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/views/system/student/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruoyi-ui/src/views/test/student/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/api/system/dict/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/ruoyi-ui/src/api/system/dict/data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/components/Hamburger/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ruoyi-ui/src/components/Hamburger/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/components/Pagination/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ruoyi-ui/src/components/Pagination/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/ruoyi-ui/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/ruoyi-ui/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/views/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ruoyi-ui/src/views/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/views/login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ruoyi-ui/src/views/login.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/views/system/dict/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ruoyi-ui/src/views/system/dict/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/views/system/role/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ruoyi-ui/src/views/system/role/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/views/system/user/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ruoyi-ui/src/views/system/user/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi-ui/src/views/tool/gen/importTable.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ruoyi-ui/src/views/tool/gen/importTable.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/bin/clean.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/bin/package.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/bin/run-tomcat.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/ry.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/sql/quartz.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/sql/ry_20200629.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/RuoYiApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/RuoYiServletInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/common/constant/Constants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/common/constant/GenConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/common/constant/HttpStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/common/constant/ScheduleConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/common/constant/UserConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/common/core/lang/UUID.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/common/core/text/CharsetKit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/common/core/text/Convert.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/common/core/text/StrFormatter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/common/enums/HttpMethod.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/common/enums/UserStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/common/exception/BaseException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/common/exception/CustomException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/common/exception/DemoModeException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/common/exception/UtilException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/common/exception/file/FileException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/common/exception/file/FileNameLengthLimitExceededException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/common/exception/file/FileSizeLimitExceededException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/common/exception/file/InvalidExtensionException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/common/exception/job/TaskException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/common/exception/user/CaptchaException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/common/exception/user/CaptchaExpireException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/common/exception/user/UserException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/common/exception/user/UserPasswordNotMatchException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/common/filter/RepeatableFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/common/filter/RepeatedlyRequestWrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/common/filter/XssFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/common/filter/XssHttpServletRequestWrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/common/utils/Arith.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/common/utils/DateUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/common/utils/DictUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/common/utils/ExceptionUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/common/utils/IdUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/common/utils/LogUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/common/utils/MessageUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/common/utils/SecurityUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/common/utils/ServletUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/common/utils/StringUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/common/utils/Threads.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/common/utils/VerifyCodeUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/common/utils/bean/BeanUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/common/utils/file/FileUploadUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/common/utils/file/FileUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/common/utils/file/MimeTypeUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/common/utils/html/EscapeUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/common/utils/html/HTMLFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/common/utils/http/HttpHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/common/utils/http/HttpUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/common/utils/ip/AddressUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/common/utils/ip/IpUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/common/utils/job/AbstractQuartzJob.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/common/utils/job/CronUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/common/utils/job/JobInvokeUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/common/utils/job/QuartzDisallowConcurrentExecution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/common/utils/job/QuartzJobExecution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/common/utils/job/ScheduleUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/common/utils/poi/ExcelUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/common/utils/reflect/ReflectUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/common/utils/security/Md5Utils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/common/utils/sign/Base64.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/common/utils/spring/SpringUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/common/utils/sql/SqlUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/aspectj/DataScopeAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/aspectj/DataSourceAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/aspectj/LogAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/aspectj/lang/annotation/DataScope.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/aspectj/lang/annotation/DataSource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/aspectj/lang/annotation/Excel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/aspectj/lang/annotation/Excels.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/aspectj/lang/annotation/Log.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/aspectj/lang/enums/BusinessStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/aspectj/lang/enums/BusinessType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/aspectj/lang/enums/DataSourceType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/aspectj/lang/enums/OperatorType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/config/ApplicationConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/config/DruidConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/config/FastJson2JsonRedisSerializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/config/FilterConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/config/GenConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/config/MyBatisConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/config/RedisConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/config/ResourcesConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/config/RuoYiConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/config/ScheduleConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/config/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/config/ServerConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/config/SwaggerConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/config/ThreadPoolConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/config/properties/DruidProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/datasource/DynamicDataSource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/datasource/DynamicDataSourceContextHolder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/interceptor/RepeatSubmitInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/interceptor/annotation/RepeatSubmit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/interceptor/impl/SameUrlDataInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/manager/AsyncManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/manager/ShutdownManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/manager/factory/AsyncFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/redis/RedisCache.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/security/LoginBody.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/security/LoginUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/security/filter/JwtAuthenticationTokenFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/security/handle/AuthenticationEntryPointImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/security/handle/LogoutSuccessHandlerImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/security/service/PermissionService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/security/service/SysLoginService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/security/service/SysPermissionService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/security/service/TokenService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/security/service/UserDetailsServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/task/RyTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/web/controller/BaseController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/web/domain/AjaxResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/web/domain/BaseEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/web/domain/Server.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/web/domain/TreeEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/web/domain/TreeSelect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/web/domain/server/Cpu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/web/domain/server/Jvm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/web/domain/server/Mem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/web/domain/server/Sys.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/web/domain/server/SysFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/web/exception/GlobalExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/web/page/PageDomain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/web/page/TableDataInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/framework/web/page/TableSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/common/CaptchaController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/common/CommonController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/monitor/controller/ServerController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/monitor/controller/SysJobController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/monitor/controller/SysJobLogController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/monitor/controller/SysLogininforController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/monitor/controller/SysOperlogController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/monitor/controller/SysUserOnlineController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/monitor/domain/SysJob.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/monitor/domain/SysJobLog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/monitor/domain/SysLogininfor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/monitor/domain/SysOperLog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/monitor/domain/SysUserOnline.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/monitor/mapper/SysJobLogMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/monitor/mapper/SysJobMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/monitor/mapper/SysLogininforMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/monitor/mapper/SysOperLogMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/monitor/service/ISysJobLogService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/monitor/service/ISysJobService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/monitor/service/ISysLogininforService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/monitor/service/ISysOperLogService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/monitor/service/impl/SysJobLogServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/monitor/service/impl/SysJobServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/monitor/service/impl/SysLogininforServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/monitor/service/impl/SysOperLogServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/system/controller/SysConfigController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/system/controller/SysDeptController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/system/controller/SysDictDataController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/system/controller/SysDictTypeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/system/controller/SysLoginController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/system/controller/SysMenuController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/system/controller/SysNoticeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/system/controller/SysPostController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/system/controller/SysProfileController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/system/controller/SysRoleController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/system/controller/SysUserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/system/domain/SysConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/system/domain/SysDept.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/system/domain/SysDictData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/system/domain/SysDictType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/system/domain/SysMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/system/domain/SysNotice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/system/domain/SysPost.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/system/domain/SysRole.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/system/domain/SysRoleDept.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/system/domain/SysRoleMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/system/domain/SysUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/system/domain/SysUserPost.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/system/domain/SysUserRole.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/system/domain/vo/MetaVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/system/domain/vo/RouterVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/system/mapper/SysConfigMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/system/mapper/SysDeptMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/system/mapper/SysDictDataMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/system/mapper/SysDictTypeMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/system/mapper/SysMenuMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/system/mapper/SysNoticeMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/system/mapper/SysPostMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/system/mapper/SysRoleDeptMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/system/mapper/SysRoleMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/system/mapper/SysRoleMenuMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/system/mapper/SysUserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/system/mapper/SysUserPostMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/system/mapper/SysUserRoleMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/system/service/ISysConfigService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/system/service/ISysDeptService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/system/service/ISysDictDataService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/system/service/ISysDictTypeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/system/service/ISysMenuService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/system/service/ISysNoticeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/system/service/ISysPostService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/system/service/ISysRoleService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/system/service/ISysUserOnlineService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/system/service/ISysUserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/system/service/impl/SysConfigServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/system/service/impl/SysDeptServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/system/service/impl/SysDictDataServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/system/service/impl/SysDictTypeServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/system/service/impl/SysMenuServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/system/service/impl/SysNoticeServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/system/service/impl/SysPostServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/system/service/impl/SysRoleServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/system/service/impl/SysUserOnlineServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/system/service/impl/SysUserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/tool/gen/controller/GenController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/tool/gen/domain/GenTable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/tool/gen/domain/GenTableColumn.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/tool/gen/mapper/GenTableColumnMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/tool/gen/mapper/GenTableMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/tool/gen/service/GenTableColumnServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/tool/gen/service/GenTableServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/tool/gen/service/IGenTableColumnService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/tool/gen/service/IGenTableService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/tool/gen/util/GenUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/tool/gen/util/VelocityInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/tool/gen/util/VelocityUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/java/com/ruoyi/project/tool/swagger/TestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/resources/META-INF/spring-devtools.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/resources/application-druid.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/resources/banner.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/resources/i18n/messages.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/resources/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/resources/mybatis/monitor/SysLogininforMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/resources/mybatis/monitor/SysOperLogMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/resources/mybatis/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/resources/mybatis/system/SysConfigMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/resources/mybatis/system/SysDeptMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/resources/mybatis/system/SysDictDataMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/resources/mybatis/system/SysDictTypeMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/resources/mybatis/system/SysJobLogMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/resources/mybatis/system/SysJobMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/resources/mybatis/system/SysMenuMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/resources/mybatis/system/SysNoticeMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/resources/mybatis/system/SysPostMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/resources/mybatis/system/SysRoleDeptMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/resources/mybatis/system/SysRoleMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/resources/mybatis/system/SysRoleMenuMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/resources/mybatis/system/SysUserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/resources/mybatis/system/SysUserPostMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/resources/mybatis/system/SysUserRoleMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/resources/mybatis/tool/GenTableColumnMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/resources/mybatis/tool/GenTableMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/resources/vm/java/controller.java.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/resources/vm/java/domain.java.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/resources/vm/java/mapper.java.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/resources/vm/java/service.java.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/resources/vm/java/serviceImpl.java.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/resources/vm/js/api.js.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/resources/vm/sql/sql.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/resources/vm/vue/index-tree.vue.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/resources/vm/vue/index.vue.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruoyi/src/main/resources/vm/xml/mapper.xml.vm" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="branchTest1" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1e1TU3t9hACTFiZLHkzNqbeEq8y" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ruoyi-ui/src/api/test/tree_component" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="ts.external.directory.path" value="D:\develop\IDEA\IntelliJ IDEA 2020.1.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ruoyi\ruoyi-2020.6.30\RuoYi-Vue\ruoyi-ui\src\api\test\tree_component" />
+      <recent name="D:\ruoyi\ruoyi-2020.6.30\RuoYi-Vue\ruoyi-ui\src\views\system\message" />
+      <recent name="D:\ruoyi\ruoyi-2020.6.30\RuoYi-Vue\ruoyi-ui\src\api\system" />
+      <recent name="D:\ruoyi\ruoyi-2020.6.30\RuoYi-Vue\ruoyi-ui\src\views\test\member" />
+      <recent name="D:\ruoyi\ruoyi-2020.6.30\RuoYi-Vue\ruoyi-ui\src\views\test\grade" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/ruoyi-ui/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.dev" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0595af7e-01e4-4dae-8e35-c65d7dcd8cac" name="Default Changelist" comment="" />
+      <created>1593488111476</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593488111476</updated>
+      <workItem from="1593488113575" duration="47187000" />
+      <workItem from="1593998691440" duration="118205000" />
+      <workItem from="1594373658994" duration="2694000" />
+      <workItem from="1594602520915" duration="58868000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="254" y="84" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594603904408">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="254" y="84" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1594603904408" />
+    <state x="544" y="230" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1594722151646">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="544" y="230" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1600.860@0.0.1600.860" timestamp="1594722151646" />
+    <state x="683" y="184" key="FileChooserDialogImpl" timestamp="1594373752175">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="683" y="184" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1594373752175" />
+    <state width="1557" height="339" key="GridCell.Tab.0.bottom" timestamp="1594689894477">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="339" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1594689894477" />
+    <state width="1557" height="339" key="GridCell.Tab.0.center" timestamp="1594689894477">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="339" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1594689894477" />
+    <state width="1557" height="339" key="GridCell.Tab.0.left" timestamp="1594689894477">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="339" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1594689894477" />
+    <state width="1557" height="339" key="GridCell.Tab.0.right" timestamp="1594689894477">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="339" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1594689894477" />
+    <state x="240" y="40" key="SettingsEditor" timestamp="1593738623920">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="240" y="40" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1593738623920" />
+    <state x="285" y="23" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1594723796331">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="285" y="23" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1600.860@0.0.1600.860" timestamp="1594723796331" />
+    <state x="619" y="219" width="656" height="594" key="find.popup" timestamp="1594723784194">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="619" y="219" width="656" height="594" key="find.popup/0.0.1600.860@0.0.1600.860" timestamp="1594723784194" />
+    <state x="174" y="90" key="new project wizard" timestamp="1593488231734">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="174" y="90" key="new project wizard/0.0.1600.860@0.0.1600.860" timestamp="1593488231734" />
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1594604925161">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1594604925161" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/ruoyi-ui/src/views/test/grade/index.vue</url>
+          <line>216</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/ruoyi-ui/src/views/test/grade/tree/index.vue</url>
+          <line>37</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/ruoyi-ui/src/views/test/grade/index.vue</url>
+          <line>30</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/ruoyi-ui/src/views/test/grade/index.vue</url>
+          <line>84</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/ruoyi-ui/src/views/test/grade/index.vue</url>
+          <line>47</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

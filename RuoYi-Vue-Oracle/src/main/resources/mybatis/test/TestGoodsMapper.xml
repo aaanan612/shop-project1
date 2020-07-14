@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ruoyi.project.test.mapper.TestGoodsMapper">
+    
+    <resultMap type="TestGoods" id="TestGoodsResult">
+        <result property="goodsId"    column="goods_id"    />
+        <result property="customerId"    column="customer_id"    />
+        <result property="name"    column="name"    />
+        <result property="weight"    column="weight"    />
+        <result property="price"    column="price"    />
+        <result property="type"    column="type"    />
+    </resultMap>
+
+    <sql id="selectTestGoodsVo">
+        select goods_id, customer_id, name, weight, price, type from test_goods
+    </sql>
+
+    <select id="selectTestGoodsList" parameterType="TestGoods" resultMap="TestGoodsResult">
+        <include refid="selectTestGoodsVo"/>
+        <where>  
+            <if test="customerId != null "> and customer_id = #{customerId}</if>
+            <if test="name != null  and name != ''"> and name like concat(concat('%', #{name}), '%')</if>
+            <if test="weight != null "> and weight = #{weight}</if>
+            <if test="price != null "> and price = #{price}</if>
+            <if test="type != null  and type != ''"> and type = #{type}</if>
+        </where>
+    </select>
+    
+    <select id="selectTestGoodsById" parameterType="Long" resultMap="TestGoodsResult">
+        <include refid="selectTestGoodsVo"/>
+        where goods_id = #{goodsId}
+    </select>
+        
+    <insert id="insertTestGoods" parameterType="TestGoods">
+        <selectKey keyProperty="goodsId" resultType="long" order="BEFORE">
+            SELECT seq_test_goods.NEXTVAL as goodsId FROM DUAL
+        </selectKey>
+        insert into test_goods
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="goodsId != null">goods_id,</if>
+            <if test="customerId != null">customer_id,</if>
+            <if test="name != null">name,</if>
+            <if test="weight != null">weight,</if>
+            <if test="price != null">price,</if>
+            <if test="type != null">type,</if>
+         </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="goodsId != null">#{goodsId},</if>
+            <if test="customerId != null">#{customerId},</if>
+            <if test="name != null">#{name},</if>
+            <if test="weight != null">#{weight},</if>
+            <if test="price != null">#{price},</if>
+            <if test="type != null">#{type},</if>
+         </trim>
+    </insert>
+
+    <update id="updateTestGoods" parameterType="TestGoods">
+        update test_goods
+        <trim prefix="SET" suffixOverrides=",">
+            <if test="customerId != null">customer_id = #{customerId},</if>
+            <if test="name != null">name = #{name},</if>
+            <if test="weight != null">weight = #{weight},</if>
+            <if test="price != null">price = #{price},</if>
+            <if test="type != null">type = #{type},</if>
+        </trim>
+        where goods_id = #{goodsId}
+    </update>
+
+    <delete id="deleteTestGoodsById" parameterType="Long">
+        delete from test_goods where goods_id = #{goodsId}
+    </delete>
+
+    <delete id="deleteTestGoodsByIds" parameterType="String">
+        delete from test_goods where goods_id in 
+        <foreach item="goodsId" collection="array" open="(" separator="," close=")">
+            #{goodsId}
+        </foreach>
+    </delete>
+    
+</mapper>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ruoyi.project.system.mapper.MessageMapper">
+    
+    <resultMap type="Message" id="MessageResult">
+        <result property="id"    column="id"    />
+        <result property="name"    column="name"    />
+        <result property="sex"    column="sex"    />
+        <result property="birthday"    column="birthday"    />
+        <result property="jobMessage"    column="job_message"    />
+        <result property="studyMessage"    column="study_message"    />
+        <result property="healthMessage"    column="health_message"    />
+    </resultMap>
+
+    <sql id="selectMessageVo">
+        select id, name, sex, birthday, job_message, study_message, health_message from message
+    </sql>
+
+    <select id="selectMessageList" parameterType="Message" resultMap="MessageResult">
+        <include refid="selectMessageVo"/>
+        <where>  
+            <if test="name != null  and name != ''"> and name like concat(concat('%', #{name}), '%')</if>
+            <if test="sex != null  and sex != ''"> and sex = #{sex}</if>
+            <if test="birthday != null "> and birthday = #{birthday}</if>
+            <if test="jobMessage != null  and jobMessage != ''"> and job_message = #{jobMessage}</if>
+            <if test="studyMessage != null  and studyMessage != ''"> and study_message = #{studyMessage}</if>
+            <if test="healthMessage != null  and healthMessage != ''"> and health_message = #{healthMessage}</if>
+        </where>
+    </select>
+    
+    <select id="selectMessageById" parameterType="Long" resultMap="MessageResult">
+        <include refid="selectMessageVo"/>
+        where id = #{id}
+    </select>
+        
+    <insert id="insertMessage" parameterType="Message">
+        <selectKey keyProperty="id" resultType="long" order="BEFORE">
+            SELECT seq_message.NEXTVAL as id FROM DUAL
+        </selectKey>
+        insert into message
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="id != null">id,</if>
+            <if test="name != null">name,</if>
+            <if test="sex != null">sex,</if>
+            <if test="birthday != null">birthday,</if>
+            <if test="jobMessage != null">job_message,</if>
+            <if test="studyMessage != null">study_message,</if>
+            <if test="healthMessage != null">health_message,</if>
+         </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="id != null">#{id},</if>
+            <if test="name != null">#{name},</if>
+            <if test="sex != null">#{sex},</if>
+            <if test="birthday != null">#{birthday},</if>
+            <if test="jobMessage != null">#{jobMessage},</if>
+            <if test="studyMessage != null">#{studyMessage},</if>
+            <if test="healthMessage != null">#{healthMessage},</if>
+         </trim>
+    </insert>
+
+    <update id="updateMessage" parameterType="Message">
+        update message
+        <trim prefix="SET" suffixOverrides=",">
+            <if test="name != null">name = #{name},</if>
+            <if test="sex != null">sex = #{sex},</if>
+            <if test="birthday != null">birthday = #{birthday},</if>
+            <if test="jobMessage != null">job_message = #{jobMessage},</if>
+            <if test="studyMessage != null">study_message = #{studyMessage},</if>
+            <if test="healthMessage != null">health_message = #{healthMessage},</if>
+        </trim>
+        where id = #{id}
+    </update>
+
+    <delete id="deleteMessageById" parameterType="Long">
+        delete from message where id = #{id}
+    </delete>
+
+    <delete id="deleteMessageByIds" parameterType="String">
+        delete from message where id in 
+        <foreach item="id" collection="array" open="(" separator="," close=")">
+            #{id}
+        </foreach>
+    </delete>
+    
+</mapper>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE mapper
+
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.ruoyi.project.test.mapper.TestGradeMapper">
+
+
+
+    <resultMap type="TestGrade" id="TestGradeResult">
+
+        <result property="gradeId"    column="grade_id"    />
+
+        <result property="gradeName"    column="grade_name"    />
+
+        <result property="gradeTeacher"    column="grade_teacher"    />
+
+        <result property="gradeAge"    column="grade_age"    />
+
+        <result property="address"    column="address"    />
+
+        <result property="gradeMessage"    column="grade_message"    />
+
+    </resultMap>
+
+
+
+    <sql id="selectTestGradeVo">
+
+        select grade_id, grade_name, grade_teacher, grade_age, address, grade_message from test_grade
+
+    </sql>
+
+
+
+    <select id="selectTestGradeList" parameterType="TestGrade" resultMap="TestGradeResult">
+
+        <include refid="selectTestGradeVo"/>
+
+        <where>
+
+            <if test="gradeName != null  and gradeName != ''"> and grade_name like concat(concat('%', #{gradeName}), '%')</if>
+
+            <if test="gradeTeacher != null  and gradeTeacher != ''"> and grade_teacher = #{gradeTeacher}</if>
+
+            <if test="gradeAge != null "> and grade_age = #{gradeAge}</if>
+
+            <if test="address != null  and address != ''"> and address = #{address}</if>
+
+            <if test="gradeMessage != null  and gradeMessage != ''"> and grade_message = #{gradeMessage}</if>
+
+        </where>
+
+    </select>
+
+
+
+    <select id="selectTestGradeById" parameterType="Long" resultMap="TestGradeResult">
+
+        <include refid="selectTestGradeVo"/>
+
+        where grade_id = #{gradeId}
+
+    </select>
+
+
+
+    <insert id="insertTestGrade" parameterType="TestGrade">
+
+        <selectKey keyProperty="gradeId" resultType="long" order="BEFORE">
+
+            SELECT seq_test_grade.NEXTVAL as gradeId FROM DUAL
+
+        </selectKey>
+
+        insert into test_grade
+
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+
+            <if test="gradeId != null">grade_id,</if>
+
+            <if test="gradeName != null">grade_name,</if>
+
+            <if test="gradeTeacher != null">grade_teacher,</if>
+
+            <if test="gradeAge != null">grade_age,</if>
+
+            <if test="address != null">address,</if>
+
+            <if test="gradeMessage != null">grade_message,</if>
+
+        </trim>
+
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+
+            <if test="gradeId != null">#{gradeId},</if>
+
+            <if test="gradeName != null">#{gradeName},</if>
+
+            <if test="gradeTeacher != null">#{gradeTeacher},</if>
+
+            <if test="gradeAge != null">#{gradeAge},</if>
+
+            <if test="address != null">#{address},</if>
+
+            <if test="gradeMessage != null">#{gradeMessage},</if>
+
+        </trim>
+
+    </insert>
+
+
+
+    <update id="updateTestGrade" parameterType="TestGrade">
+
+        update test_grade
+
+        <trim prefix="SET" suffixOverrides=",">
+
+            <if test="gradeName != null">grade_name = #{gradeName},</if>
+
+            <if test="gradeTeacher != null">grade_teacher = #{gradeTeacher},</if>
+
+            <if test="gradeAge != null">grade_age = #{gradeAge},</if>
+
+            <if test="address != null">address = #{address},</if>
+
+            <if test="gradeMessage != null">grade_message = #{gradeMessage},</if>
+
+        </trim>
+
+        where grade_id = #{gradeId}
+
+    </update>
+
+
+
+    <delete id="deleteTestGradeById" parameterType="Long">
+
+        delete from test_grade where grade_id = #{gradeId}
+
+    </delete>
+
+
+
+    <delete id="deleteTestGradeByIds" parameterType="String">
+
+        delete from test_grade where grade_id in
+
+        <foreach item="gradeId" collection="array" open="(" separator="," close=")">
+
+            #{gradeId}
+
+        </foreach>
+
+    </delete>
+
+
+
+</mapper>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ruoyi.project.test.mapper.TestMemberMapper">
+    
+    <resultMap type="TestMember" id="TestMemberResult">
+        <result property="memberId"    column="member_id"    />
+        <result property="memberName"    column="member_name"    />
+        <result property="gradeId"    column="grade_id"    />
+        <result property="memberStatus"    column="member_status"    />
+    </resultMap>
+
+    <sql id="selectTestMemberVo">
+        select member_id, member_name, grade_id, member_status from test_member
+    </sql>
+
+    <select id="selectTestMemberList" parameterType="TestMember" resultMap="TestMemberResult">
+        <include refid="selectTestMemberVo"/>
+        <where>  
+            <if test="memberName != null  and memberName != ''"> and member_name like concat(concat('%', #{memberName}), '%')</if>
+            <if test="gradeId != null "> and grade_id = #{gradeId}</if>
+            <if test="memberStatus != null  and memberStatus != ''"> and member_status = #{memberStatus}</if>
+        </where>
+    </select>
+    
+    <select id="selectTestMemberById" parameterType="Long" resultMap="TestMemberResult">
+        <include refid="selectTestMemberVo"/>
+        where member_id = #{memberId}
+    </select>
+
+    <select id="selectTestMemberByGradeId" parameterType="Long" resultMap="TestMemberResult">
+        <include refid="selectTestMemberVo"/>
+        where grade_id = #{gradeId}
+    </select>
+        
+    <insert id="insertTestMember" parameterType="TestMember">
+        <selectKey keyProperty="memberId" resultType="long" order="BEFORE">
+            SELECT seq_test_member.NEXTVAL as memberId FROM DUAL
+        </selectKey>
+        insert into test_member
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="memberId != null">member_id,</if>
+            <if test="memberName != null">member_name,</if>
+            <if test="gradeId != null">grade_id,</if>
+            <if test="memberStatus != null">member_status,</if>
+         </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="memberId != null">#{memberId},</if>
+            <if test="memberName != null">#{memberName},</if>
+            <if test="gradeId != null">#{gradeId},</if>
+            <if test="memberStatus != null">#{memberStatus},</if>
+         </trim>
+    </insert>
+
+    <update id="updateTestMember" parameterType="TestMember">
+        update test_member
+        <trim prefix="SET" suffixOverrides=",">
+            <if test="memberName != null">member_name = #{memberName},</if>
+            <if test="gradeId != null">grade_id = #{gradeId},</if>
+            <if test="memberStatus != null">member_status = #{memberStatus},</if>
+        </trim>
+        where member_id = #{memberId}
+    </update>
+
+    <delete id="deleteTestMemberById" parameterType="Long">
+        delete from test_member where member_id = #{memberId}
+    </delete>
+
+    <delete id="deleteTestMemberByIds" parameterType="String">
+        delete from test_member where member_id in 
+        <foreach item="memberId" collection="array" open="(" separator="," close=")">
+            #{memberId}
+        </foreach>
+    </delete>
+    
+</mapper>

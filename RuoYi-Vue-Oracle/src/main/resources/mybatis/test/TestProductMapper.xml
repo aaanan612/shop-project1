@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ruoyi.project.test.mapper.TestProductMapper">
+    
+    <resultMap type="TestProduct" id="TestProductResult">
+        <result property="productId"    column="product_id"    />
+        <result property="productName"    column="product_name"    />
+        <result property="parentId"    column="parent_id"    />
+        <result property="orderNum"    column="order_num"    />
+        <result property="status"    column="status"    />
+        <result property="parentName" column="parent_name" />
+    </resultMap>
+
+    <sql id="selectTestProductVo">
+        select product_id, product_name, parent_id, order_num, status from test_product
+    </sql>
+
+    <select id="selectTestProductList" parameterType="TestProduct" resultMap="TestProductResult">
+        <include refid="selectTestProductVo"/>
+        <where>  
+            <if test="productId != null "> and product_id = #{productId}</if>
+            <if test="productName != null  and productName != ''"> and product_name like concat(concat('%', #{productName}), '%')</if>
+            <if test="parentId != null "> and parent_id = #{parentId}</if>
+            <if test="orderNum != null "> and order_num = #{orderNum}</if>
+            <if test="status != null  and status != ''"> and status = #{status}</if>
+        </where>
+        order by parent_id
+    </select>
+    
+    <select id="selectTestProductById" parameterType="Long" resultMap="TestProductResult">
+        select t.product_id, t.product_name, t.parent_id, t.order_num, t.status, p.product_name as parent_name
+        from test_product t
+        left join test_product p on p.product_id = t.parent_id
+        where t.product_id = #{productId}
+    </select>
+        
+    <insert id="insertTestProduct" parameterType="TestProduct">
+        insert into test_product
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="productId != null">product_id,</if>
+            <if test="productName != null">product_name,</if>
+            <if test="parentId != null">parent_id,</if>
+            <if test="orderNum != null">order_num,</if>
+            <if test="status != null">status,</if>
+         </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="productId != null">#{productId},</if>
+            <if test="productName != null">#{productName},</if>
+            <if test="parentId != null">#{parentId},</if>
+            <if test="orderNum != null">#{orderNum},</if>
+            <if test="status != null">#{status},</if>
+         </trim>
+    </insert>
+
+    <update id="updateTestProduct" parameterType="TestProduct">
+        update test_product
+        <trim prefix="SET" suffixOverrides=",">
+            <if test="productName != null">product_name = #{productName},</if>
+            <if test="parentId != null">parent_id = #{parentId},</if>
+            <if test="orderNum != null">order_num = #{orderNum},</if>
+            <if test="status != null">status = #{status},</if>
+        </trim>
+        where product_id = #{productId}
+    </update>
+
+    <delete id="deleteTestProductById" parameterType="Long">
+        delete from test_product where product_id = #{productId}
+    </delete>
+
+    <delete id="deleteTestProductByIds" parameterType="String">
+        delete from test_product where product_id in 
+        <foreach item="productId" collection="array" open="(" separator="," close=")">
+            #{productId}
+        </foreach>
+    </delete>
+    
+</mapper>
